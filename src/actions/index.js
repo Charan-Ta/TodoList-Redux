@@ -1,7 +1,15 @@
-const addTodo = task => {
+// const addTodo = task => {
+//   return {
+//     type: "ADD_TODO",
+//     payload: task
+//   };
+// };
+// export default addTodo;
+
+export function addTodo(todo) {
+  // console.log(todo);
   return {
-    type: "ADD_TODO",
-    payload: task
+    type: "TODO",
+    payload: todo
   };
-};
-export default addTodo;
+}

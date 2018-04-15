@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Todobar from "./components/Todobar";
 import Todolist from "./components/Todolist";
 
+
 const App = () => {
   return (
     <div>
@@ -13,4 +14,5 @@ const App = () => {
   );
 };
 
-export default App;
+
+export default (App);
